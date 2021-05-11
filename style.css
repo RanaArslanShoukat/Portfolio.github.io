@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    font-weight: 600;
+}
+/* Navbar */
+.navbar{
+    background-image: linear-gradient(-90deg,#161b62,#050c2b)!important;
+}
+.nav-link{
+    color: #fff!important;
+    float: right;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: red!important;
+}
+.navbar-brand{
+    color: #fff!important;
+    font-weight: 600;
+    margin-left: 4rem;
+}
+.navbar-brand span{
+    color: red;
+}
+.navbar-nav{
+    margin-right: 4rem;
+}
+.nav-link{
+    margin-left: 2rem;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+/* Image Section */
+.imageSection{
+    width: 100%;
+    background-image: linear-gradient(-90deg,#161b62,#050c2b)!important;
+    height: 100vh;
+}
+.imageSection h1{
+    color: #fff;
+    font-weight: 600;
+}
+.imageSection span{
+    color: red;
+}
+.imageSection h4{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding-top: 15rem;
+}
+.imageSection h2{
+    color: #fff;
+    font-weight: 600;
+}
+.imageSection img{
+    height: 600px;
+    width: 600px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.imageSection .btn{
+    margin: 0px;
+    letter-spacing: none;
+    color:red;
+}
+.imageSection a{
+    text-decoration: none;
+    color: red;
+}
+/* services */
+.services{
+    margin: 130px 80px;
+}
+.i-tag{
+    font-size: 80px;
+    margin-bottom: 2rem;
+    color: red;
+}
+.services-hr{
+   
+    margin-bottom: 6rem;
+    width: 300px;
+    margin-left: 33rem;
+}
+/* About */
+.about{
+    margin: 130px 80px;
+}
+.about-hr{
+    margin-bottom: 6rem;
+    width: 300px;
+    margin-left: 33rem;
+}
+/* work */
+.work{
+    margin: 130px 80px;
+}
+.work-hr{
+    margin-bottom: 6rem;
+    width: 300px;
+    margin-left: 33rem;
+}
+.work img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 5rem;
+}
+.work p{
+    margin-right: 300px;
+    border-left: 1px solid black;
+    margin-left: 1rem;
+}
+.btn{
+    float: left;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    letter-spacing: 5px;
+}
+.work a{
+    text-decoration: none;
+    color: #fff!important;
+}
+/* footer */
+.footer{
+    background-image: linear-gradient(-90deg,#161b62,#050c2b)!important;
+}
+.i-tags{
+    margin-top: 2rem;
+    font-size: 30px;
+    color: red;
+    margin-left: 450px;
+}
+.footer p{
+    color:#fff;
+    margin-left: 450px;
+}
+/* media query */
+
+@media (min-width: 992px) { 
+    .imageSection{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .imageSection img{
+        width: 300px;
+        height: 300px;
+        margin-top: 150px;
+    }
+    .about{
+        margin: 0px;
+    }
+    .about-hr{
+        margin-bottom: 6rem;
+        width: 250px;
+        margin-left: 23rem;
+    }
+    .services-hr{
+   
+        margin-bottom: 6rem;
+        width: 250px;
+        margin-left: 17rem;
+    }
+    .work p{
+        margin-right: 150px;
+        border-left: 1px solid black;
+        margin-left: 2rem;
+    }
+    .work .btn{
+        float: left;
+        margin-left: 2rem;
+        margin-top: 4rem;
+        margin-right: 2rem;
+        letter-spacing: 5px;
+    }
+    .work-hr{
+        margin-bottom: 6rem;
+        width: 250px;
+        margin-left: 18rem;
+    }
+    .i-tags{
+        font-size: 30px;
+        color: red;
+        margin-left: 450px;
+    }
+    .footer p{
+        color:#fff;
+        margin-left: 400px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .imageSection img{
+        height: 300px;
+        width: 300px;
+        font-weight: 600;
+        margin-top: 15rem;
+    }
+    .imageSection h4{
+       margin-top: 5rem;
+    }
+    .i-tag{
+        font-size: 80px;
+        margin-bottom: 2.7rem;
+        margin-top: 2rem;
+        color: red;
+    }
+    .services-hr{
+        margin-bottom: 6rem;
+        width: 200px;
+        margin-left: 18.5rem;
+    }
+    .about-hr{
+        margin-bottom: 6rem;
+        width: 200px;
+        margin-left: 18.5rem;
+    }
+    .about{
+        margin: 130px 0px;
+    }
+    .work-hr{
+        margin-bottom: 6rem;
+        width: 200px;
+        margin-left: 18.5rem;
+    }
+    .work p{
+        margin-right: 100px;
+        border-left: 1px solid black;
+        margin-left: 1rem;
+    }
+    .i-tags{
+        margin-top: 2rem;
+        font-size: 30px;
+        color: red;
+        margin-left: 330px;
+    }
+    .footer p{
+        color:#fff;
+        margin-left: 300px;
+    }
+   
+}
+
+
